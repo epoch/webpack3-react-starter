@@ -5,9 +5,13 @@
 git clone THIS_GIT_REPO_URL
 ```
 
-2. install dependencies
+2. install dependencies using npm or yarn
 ```
 npm install
+```
+or
+```
+yarn install
 ```
 
 3. start development server
