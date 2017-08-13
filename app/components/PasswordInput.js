@@ -1,6 +1,6 @@
 import React from 'react'
 import passwordMeter from '../../lib/passwordMeter'
-import './passwordInput.css'
+import './PasswordInput.css'
 
 export default class PasswordInput extends React.Component {
 
