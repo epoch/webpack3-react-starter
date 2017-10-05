@@ -23,8 +23,8 @@
     "webpack-dev-server": "^2.4.2"
   },
   "scripts": {
-    "start": "webpack-dev-server --env.dev --config app/config/webpack.config.js",
-    "build": "webpack --env.prod -p --config app/config/webpack.config.js",
+    "start": "webpack-dev-server --env.dev --config config/webpack.config.js",
+    "build": "webpack --env.prod -p --config config/webpack.config.js",
     "test": "mocha --compilers js:babel-core/register"
   },
   "dependencies": {

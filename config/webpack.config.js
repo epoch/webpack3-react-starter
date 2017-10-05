@@ -2,7 +2,7 @@ const path = require('path')
 const HtmlPlugin = require('html-webpack-plugin')
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
 
-const ROOT = path.join(__dirname, '../../')
+const ROOT = path.join(__dirname, '../')
 
 const PATHS = {
   app: path.join(ROOT, 'app'),
