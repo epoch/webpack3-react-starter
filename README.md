@@ -2,13 +2,13 @@
 
 All you need, none you don't. 
 
-Sensible starter to try react with webpack 2 that deploys straight to github pages.
+Sensible starter to try react with webpack 3 that deploys straight to github pages.
 
 ## Based on
 
 1. Bundler: [Webpack](http://webpack.github.io/docs/), [Babel](https://babeljs.io)
 2. Language: [ES2015](https://babeljs.io/docs/learn-es2015/)
-3. Library: [Sass](http://sass-lang.com/)
+3. Library: [React](https://reactjs.org/), [Sass](http://sass-lang.com/)
 
 ## Usage
 
