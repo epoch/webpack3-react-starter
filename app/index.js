@@ -10,6 +10,8 @@ ReactDom.render(
   document.querySelector('#app')
 )
 
+module.hot.accept()
+
 
 
 

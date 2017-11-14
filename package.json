@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "webpack-dev-server --env.dev --config config/webpack.config.js",
+    "start": "webpack-dev-server --hot --env.dev --config config/webpack.config.js",
     "build": "webpack --env.prod -p --config config/webpack.config.js",
     "test": "mocha --compilers js:babel-core/register"
   },
@@ -25,7 +25,7 @@
     "style-loader": "^0.19.0",
     "url-loader": "^0.6.2",
     "webpack": "^3.6.0",
-    "webpack-dev-server": "^2.9.1"
+    "webpack-dev-server": "^2.9.4"
   },
   "dependencies": {
     "react": "^16.0.0",
