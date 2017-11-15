@@ -1,7 +1,7 @@
 import React from 'react'
 import PasswordInput from './PasswordInput'
 
-class App extends React.Component {
+export default class App extends React.Component {
 
   constructor(props) {
     super(props)
@@ -10,11 +10,9 @@ class App extends React.Component {
   render() {
     return <div>
       <h1>hello world</h1>
-      <label>example password checker:</label>
+      <label>example component</label>
       <PasswordInput />
     </div>
   }
 
 }
-
-module.exports = App
