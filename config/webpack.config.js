@@ -1,4 +1,5 @@
 const path = require('path')
+const webpack = require('webpack')
 const HtmlPlugin = require('html-webpack-plugin')
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
 
@@ -27,7 +28,7 @@ module.exports = (env = {}) => {
         template: path.join(PATHS.app, 'index.html'),
         hash: env.prod ? true : false
       }),
-
+      new webpack.NamedModulesPlugin(),
       new ExtractTextPlugin('[name].css')
     ],
 
@@ -40,10 +41,10 @@ module.exports = (env = {}) => {
         },
         {
           test: /\.s?css$/,
-          use: ExtractTextPlugin.extract({
+          use: ['css-hot-loader'].concat(ExtractTextPlugin.extract({
             fallback: 'style-loader',
             use: ['css-loader','sass-loader']
-          })
+          }))
         },
         {
           test: /\.(png|gif|jpg)$/,
