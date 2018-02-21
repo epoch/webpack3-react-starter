@@ -1,4 +1,4 @@
-var expect = require('chai').expect
+import { expect } from 'chai'
 import getStrength from '../lib/passwordMeter'
 
 describe('passwordMeter', () => {
