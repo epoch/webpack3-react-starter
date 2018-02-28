@@ -52,7 +52,7 @@ module.exports = (env = {}) => {
           options: { limit: '25000' }
         },
         {
-          test: /\.(ttf|eot|svg)$/,
+          test: /\.(ttf|eot|svg|woff|woff2)$/,
           loader: 'file-loader'
         }
       ]
