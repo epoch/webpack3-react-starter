@@ -7,7 +7,7 @@ Sensible starter with hot reload to try react with webpack 3 that deploys straig
 ## Based on
 
 1. Bundler: [Webpack](http://webpack.github.io/docs/), [Babel](https://babeljs.io)
-2. Language: [ES2015](https://babeljs.io/docs/learn-es2015/)
+2. Language: [ES2015](https://babeljs.io/docs/learn-es2015/) ES2016/es7 class properties & object spread
 3. Library: [React](https://reactjs.org/), [Sass](http://sass-lang.com/), [Mocha](https://mochajs.org)
 
 ## Usage
