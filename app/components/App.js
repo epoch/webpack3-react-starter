@@ -9,10 +9,10 @@ export default class App extends React.Component {
 
   render() {
     return <div>
-      <h1>hello world</h1>
-      <label>example component</label>
-      <PasswordInput />
+      <div className="password">
+        <h1>Test your password strength</h1>
+        <PasswordInput />
+      </div>
     </div>
   }
-
 }

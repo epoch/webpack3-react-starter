@@ -1,4 +1,7 @@
 
-body {
-  background-color: mistyrose;
+.password {
+  display: inline-block;
+  margin: 20px;
+  padding: 20px;
+  background-color: azure;
 }
